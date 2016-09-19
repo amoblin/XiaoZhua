@@ -4,12 +4,12 @@
     "allowed_domains": ["blogbus.com"],
     "start_urls": ["http://jjjz.blogbus.com/logs/"],
     "entry": "",
-    "link_array_pipline": [
+    "link_array_pipline_": [
         [{
             "type": "css", "value": ".postBody a::attr(href)", "should_join": 0
         }]
     ],
-    "link_array_pipline_": [
+    "link_array_pipline": [
         [{
             "type": "css", "value": ".pageNavi a::attr(href)",  "should_join": 0
         }],[{
